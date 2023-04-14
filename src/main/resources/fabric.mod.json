@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "effect_export",
+  "version": "${version}",
+
+  "name": "Effect Export",
+  "description": "A mod for mcmod, it can export the status effect from a mod in a json file.",
+  "authors": [
+    "Someoneice"
+  ],
+  "contact": {
+    "homepage": "https://www.mcmod.cn/class/10000.html",
+    "sources": "https://github.com/AmarokIce/EffectExport"
+  },
+
+  "license": "Pineapple",
+  "icon": "",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cn.mcmod.effect_export.EffectExporet"
+    ]
+  },
+  "mixins": [],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.16.5",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
