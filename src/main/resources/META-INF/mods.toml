@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Pineapple"
+
+[[mods]]
+modId="effect_export"
+version="${file.jarVersion}"
+displayName="Effect Export"
+logoFile=""
+credits="Someoneice"
+authors="Someoneice"
+description='''
+'''
+
+[[dependencies.effect_export]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.effect_export]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
